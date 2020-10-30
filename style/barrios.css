@@ -1,0 +1,41 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+div{
+    display: flex;
+    padding-top: .5%;
+    margin: 1.5%;
+}
+div img{
+    margin-left: 2.5%;
+    width: 30px;
+    height: 40px;
+    cursor: pointer;
+    animation: 3s ease-in-out ;
+}
+
+div h1{
+    margin-left: 35%;
+}
+
+
+
+.data_table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    margin: 2% 0;
+}
+
+
+th, td{
+    border: 1px solid #dddddd;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
